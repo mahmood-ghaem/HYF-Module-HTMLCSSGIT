@@ -45,7 +45,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3em;
   letter-spacing: 3px;
-  background: linear-gradient(to right, #d13109, #290a02);
+  background: linear-gradient(to right, #290a02, #d13109);
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
