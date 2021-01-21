@@ -121,12 +121,12 @@ h3 {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #grid-flex {
     flex-direction: row;
     flex-wrap: wrap;
   }
-}
+} */
 
 /******************** 4.4 - Grid ********************/
 
@@ -227,11 +227,11 @@ h3 {
   width: 100%;
 }
 li:nth-child(1) {
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
   animation: drop 1.5s ease;
 }
 li:nth-child(2) {
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
   animation: drop 1.5s ease;
 }
 li:nth-child(2) p {
@@ -279,7 +279,7 @@ li:nth-child(2) p::first-letter {
   li:nth-child(2) {
     width: 24%;
     height: 550px;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   li:nth-child(3) {
     animation: drop 1.5s ease;
