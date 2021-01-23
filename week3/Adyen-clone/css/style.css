@@ -239,13 +239,15 @@ h6 {
 
 /******************** 7.0 - Footer ********************/
 
-.site-map-footer a {
+.site-map-footer a,
+.copyright-footer a {
   color: white;
   text-decoration: none;
   font-family: 'Fakt-Blond', sans-serif, Helvetica, Arial;
   font-size: 1.1em;
 }
-.site-map-footer a:hover {
+.site-map-footer a:hover,
+.copyright-footer a:hover {
   text-decoration: underline;
 }
 .site-map-footer li {
@@ -254,7 +256,9 @@ h6 {
 .language-change {
   text-align: start;
 }
-
+footer > input {
+  background-color: brown;
+}
 /******************** 8.0 - Media Query ********************/
 
 @media screen and (min-width: 575px) {
