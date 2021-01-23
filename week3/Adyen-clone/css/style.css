@@ -256,9 +256,17 @@ h6 {
 .language-change {
   text-align: start;
 }
-footer > input {
-  background-color: brown;
+.input-group input[type='email'] {
+  height: 50px;
 }
+.input-group input[type='email']:focus {
+  border: 2px solid #0abf53;
+}
+.input-group button[type='submit'] {
+  height: 50px;
+  width: 50px;
+}
+
 /******************** 8.0 - Media Query ********************/
 
 @media screen and (min-width: 575px) {
