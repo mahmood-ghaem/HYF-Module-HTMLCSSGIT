@@ -150,10 +150,6 @@ h6 {
 .navbar-toggler-icon {
   background-image: url(../images/hamburger-menu.svg) !important;
 }
-.navbar-toggler-icon:focus {
-  /* this line does not work */
-  border: 1px solid transparent !important;
-}
 .navbar {
   font-size: 1.6rem;
   padding: 0px;
